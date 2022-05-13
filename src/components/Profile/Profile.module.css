@@ -1,0 +1,59 @@
+.profile {
+    display: grid;
+    font-weight: bold;
+    grid-template-areas:
+        'ava info posts'
+    ;
+    grid-template-columns: 2fr 2fr 2fr
+}
+
+.avatar_container {
+    grid-area: ava;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.file_input {
+    margin-top: 10px;
+    width: 165px
+}
+
+.ava {
+    margin-bottom: 10px;
+}
+
+.contact {
+    margin: 5px
+}
+
+.mainInfo__item {
+    margin: 2px;
+}
+
+.direction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.all_posts__btn {
+    margin-left: 10px;
+}
+
+.btn_edit {
+    margin-top: 10px;
+}
+
+.sub__btn {
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
+
+.info_container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}

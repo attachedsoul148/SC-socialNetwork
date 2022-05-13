@@ -1,0 +1,25 @@
+.post input {
+    width: 300px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+}
+
+.post {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-areas:
+        'ava post_text'
+    ;
+    justify-content: center;
+    align-items: center;
+}
+
+.ava {
+    grid-area: ava;
+    height: 80px;
+}
+
+.post_text {
+    grid-area: post_text;
+}

@@ -1,0 +1,57 @@
+.dialogs {
+    display: grid;
+    grid-template-areas:
+        'peaple messages'
+    ;
+    font-weight: bold;
+}
+
+.dialogs__peaple {
+    padding: 15px;
+    grid-area: peaple;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.dialogs__messages {
+    grid-area: messages;
+    display: flex;
+    flex-direction: column;
+}
+
+.dialogs__messages__message {
+    margin: 10px 0px;
+}
+
+.dialogs__messages__textarea {
+    font-weight: bold;
+    font-size: 15px;
+    text-align: center;
+    padding: 15px;
+    height: 40px;
+}
+
+.dialogs__messages__button {
+    height: 30px;
+    width: 60px;
+    margin-left: 10px;
+}
+
+.dialogs__messages__sendwr {
+    width: 70%;
+    display: flex;
+}
+
+.dialogs__peaple a {
+    color: black;
+}
+
+.dialogs__messages__form {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 0px 10px
+}

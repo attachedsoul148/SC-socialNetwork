@@ -1,0 +1,30 @@
+.wrapper {
+    margin: '10px';
+    height: '500px';
+    width: '100%';
+    border: '1px solid black'
+}
+
+.singleMsgWrapper {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid black;
+    margin: auto;
+    width: 52.5%;
+    scroll-behavior: smooth
+}
+
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.messagesContainer {
+    overflow-y: auto;
+    height: 400px;
+    margin-bottom: 10px;
+}

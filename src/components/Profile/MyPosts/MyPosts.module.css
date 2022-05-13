@@ -1,0 +1,17 @@
+.all_posts {
+    height: auto;
+    grid-area: posts;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+    align-items: flex-start;
+    padding: 10px 0px 10px 0px;
+}
+
+.all_posts input {
+    width: 300px;
+    height: 40px;
+    font-weight: bold;
+    font-size: 15px;
+}
